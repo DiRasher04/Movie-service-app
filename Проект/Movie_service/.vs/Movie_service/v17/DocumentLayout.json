@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|c:\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u043F\u0440\u043E\u0435\u043A\u0442\\movie_service\\movie_service\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\personrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\personrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\contentpartner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\contentpartner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\movie_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5020D42A-B404-4563-B7AD-FA6788F582A1}|Movie_service\\Movie_service.csproj|solutionrelative:movie_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Person.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Person.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Person.cs",
+              "RelativeToolTip": "Movie_service\\Person.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:40:18.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Role.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Role.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Role.cs",
+              "RelativeToolTip": "Movie_service\\Role.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:40:08.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonRole.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\PersonRole.cs",
+              "RelativeDocumentMoniker": "Movie_service\\PersonRole.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\PersonRole.cs",
+              "RelativeToolTip": "Movie_service\\PersonRole.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAywBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:39:54.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Administrator.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Administrator.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Administrator.cs",
+              "RelativeToolTip": "Movie_service\\Administrator.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA5wEAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:39:41.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContentPartner.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\ContentPartner.cs",
+              "RelativeDocumentMoniker": "Movie_service\\ContentPartner.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\ContentPartner.cs",
+              "RelativeToolTip": "Movie_service\\ContentPartner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:39:18.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Content.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Content.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Content.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Content.cs",
+              "RelativeToolTip": "Movie_service\\Content.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:39:06.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Rate.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Rate.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Rate.cs",
+              "RelativeToolTip": "Movie_service\\Rate.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:38:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Comment.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Comment.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Comment.cs",
+              "RelativeToolTip": "Movie_service\\Comment.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:38:44.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\View.cs",
+              "RelativeDocumentMoniker": "Movie_service\\View.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\View.cs",
+              "RelativeToolTip": "Movie_service\\View.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvwgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:38:37.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Subscription.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Subscription.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Subscription.cs",
+              "RelativeToolTip": "Movie_service\\Subscription.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:38:21.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\User.cs",
+              "RelativeDocumentMoniker": "Movie_service\\User.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\User.cs",
+              "RelativeToolTip": "Movie_service\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvycAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:38:03.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Program.cs",
+              "RelativeDocumentMoniker": "Movie_service\\Program.cs",
+              "ToolTip": "C:\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\5 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0421\u0438\u0441\u0442\u0435\u043C\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0431\u0430\u0437\u0430\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u0445\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430\\\u041F\u0440\u043E\u0435\u043A\u0442\\Movie_service\\Movie_service\\Program.cs",
+              "RelativeToolTip": "Movie_service\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:16:37.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+-- Table: public.Administrator
+
+-- DROP TABLE IF EXISTS public."Administrator";
+
+CREATE TABLE IF NOT EXISTS public."Administrator"
+(
+    administrator_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    login character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    hash_password character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    firstname character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    lastname character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    patronymic character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    birthday_date date NOT NULL,
+    registration_date date NOT NULL,
+    CONSTRAINT "Administrator_pkey" PRIMARY KEY (administrator_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Administrator"
+    OWNER to postgres;
+-- Table: public.Comment
+
+-- DROP TABLE IF EXISTS public."Comment";
+
+CREATE TABLE IF NOT EXISTS public."Comment"
+(
+    comment_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    user_id integer NOT NULL,
+    content_id integer NOT NULL,
+    comment_text character varying(300) COLLATE pg_catalog."default" NOT NULL,
+    comment_date date NOT NULL,
+    CONSTRAINT "Comment_pkey" PRIMARY KEY (comment_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Comment"
+    OWNER to postgres;
+-- Table: public.Content
+
+-- DROP TABLE IF EXISTS public."Content";
+
+CREATE TABLE IF NOT EXISTS public."Content"
+(
+    content_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    name character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    studio character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    genre character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    description character varying(500) COLLATE pg_catalog."default",
+    rating integer,
+    content_partner_id integer NOT NULL,
+    CONSTRAINT "Content_pkey" PRIMARY KEY (content_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Content"
+    OWNER to postgres;
+-- Table: public.ContentPartner
+
+-- DROP TABLE IF EXISTS public."ContentPartner";
+
+CREATE TABLE IF NOT EXISTS public."ContentPartner"
+(
+    content_partner_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    login character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    hash_password character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    firstname character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    lastname character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    patronymic character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    birthday_date date NOT NULL,
+    registration_date date NOT NULL,
+    CONSTRAINT "ContentPartner_pkey" PRIMARY KEY (content_partner_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."ContentPartner"
+    OWNER to postgres;
+-- Table: public.Person
+
+-- DROP TABLE IF EXISTS public."Person";
+
+CREATE TABLE IF NOT EXISTS public."Person"
+(
+    person_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    firstname character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    lastname character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    patronymic character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    birthday_date date NOT NULL,
+    CONSTRAINT "Person_pkey" PRIMARY KEY (person_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Person"
+    OWNER to postgres;
+-- Table: public.PersonRole
+
+-- DROP TABLE IF EXISTS public."PersonRole";
+
+CREATE TABLE IF NOT EXISTS public."PersonRole"
+(
+    person_id integer NOT NULL,
+    content_id integer NOT NULL,
+    role_id integer NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."PersonRole"
+    OWNER to postgres;
+-- Table: public.Rate
+
+-- DROP TABLE IF EXISTS public."Rate";
+
+CREATE TABLE IF NOT EXISTS public."Rate"
+(
+    rate_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    user_id integer NOT NULL,
+    content_id integer NOT NULL,
+    rate_value integer NOT NULL,
+    rating_date date NOT NULL,
+    CONSTRAINT "Rate_pkey" PRIMARY KEY (rate_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Rate"
+    OWNER to postgres;
+-- Table: public.Role
+
+-- DROP TABLE IF EXISTS public."Role";
+
+CREATE TABLE IF NOT EXISTS public."Role"
+(
+    role_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    description character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Role_pkey" PRIMARY KEY (role_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Role"
+    OWNER to postgres;
+-- Table: public.Subscription
+
+-- DROP TABLE IF EXISTS public."Subscription";
+
+CREATE TABLE IF NOT EXISTS public."Subscription"
+(
+    subscription_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    user_id integer NOT NULL,
+    status boolean NOT NULL,
+    start_date date NOT NULL,
+    end_date date NOT NULL,
+    CONSTRAINT "Subscription_pkey" PRIMARY KEY (subscription_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Subscription"
+    OWNER to postgres;
+-- Table: public.User
+
+-- DROP TABLE IF EXISTS public."User";
+
+CREATE TABLE IF NOT EXISTS public."User"
+(
+    user_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    login character varying(30) COLLATE pg_catalog."default" NOT NULL,
+    hash_password character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    registration_date date,
+    CONSTRAINT "User_pkey" PRIMARY KEY (user_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."User"
+    OWNER to postgres;
+-- Table: public.View
+
+-- DROP TABLE IF EXISTS public."View";
+
+CREATE TABLE IF NOT EXISTS public."View"
+(
+    view_id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    user_id integer NOT NULL,
+    content_id integer NOT NULL,
+    view_date date NOT NULL,
+    CONSTRAINT "View_pkey" PRIMARY KEY (view_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."View"
+    OWNER to postgres;
