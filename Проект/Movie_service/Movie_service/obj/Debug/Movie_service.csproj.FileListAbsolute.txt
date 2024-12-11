@@ -1,0 +1,14 @@
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\bin\Debug\Movie_service.exe.config
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\bin\Debug\Movie_service.exe
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\bin\Debug\Movie_service.pdb
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.csproj.AssemblyReference.cache
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.Details.resources
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.Login.resources
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.Registration.resources
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.Main.resources
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.Properties.Resources.resources
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.Settings.resources
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.csproj.GenerateResource.cache
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.csproj.CoreCompileInputs.cache
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.exe
+C:\Лабораторные работы\5 Семестр\Системы управления базами данных\Курсовая работа\Проект\Movie_service\Movie_service\obj\Debug\Movie_service.pdb

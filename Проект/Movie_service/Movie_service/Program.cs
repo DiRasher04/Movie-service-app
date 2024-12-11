@@ -16,7 +16,7 @@ namespace Movie_service
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Registration());
+            Application.Run(new Main());
         }
     }
 }
