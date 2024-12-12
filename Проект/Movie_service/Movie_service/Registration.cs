@@ -21,5 +21,17 @@ namespace Movie_service
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Main mainForm = new Main();
+            mainForm.Show();
+            Hide();
+        }
     }
 }

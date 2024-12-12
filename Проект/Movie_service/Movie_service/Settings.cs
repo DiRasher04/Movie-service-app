@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Movie_service
 {
-    public partial class Settings : Form
+    public partial class Profile : Form
     {
-        public Settings()
+        public Profile()
         {
             InitializeComponent();
+        }
+
+        private void Settings_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

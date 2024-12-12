@@ -16,5 +16,18 @@ namespace Movie_service
         {
             InitializeComponent();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Registration mainForm = new Registration();
+            mainForm.Show();
+            Hide();
+        }
     }
 }

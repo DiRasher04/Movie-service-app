@@ -1,6 +1,6 @@
 ﻿namespace Movie_service
 {
-    partial class Settings
+    partial class Profile
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Settings
+            // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 653);
-            this.Name = "Settings";
-            this.Text = "Settings";
+            this.Name = "Profile";
+            this.Text = "КиноСервис";
+            this.Load += new System.EventHandler(this.Settings_Load);
             this.ResumeLayout(false);
 
         }
