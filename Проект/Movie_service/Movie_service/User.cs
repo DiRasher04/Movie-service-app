@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Movie_service.UserState;
 
 namespace Movie_service
 {
@@ -11,16 +13,39 @@ namespace Movie_service
         private int user_id;
         private string login;
         private string hash_password;
-        private DateTime registration_date;
+        private string registration_date;
 
-        public void Registration()
+        public void Registration(string login, string password)
         {
-            // Логика регистрации
+            this.login = login;
+            int temp = password.GetHashCode();
+            this.hash_password = temp.ToString();
+            DateTime current_date = DateTime.Now;
+            registration_date = current_date.ToString();
+            ConnectionDB connectionDB = new ConnectionDB();
+            connectionDB.InsertDB("INSERT INTO public.\"User\" (login, hash_password, registration_date)  VALUES ('dirasher', '1234', '2024-01-01'),('" + login + "', '" + hash_password + "', '" + registration_date + "');");
         }
-
-        public void Entry()
+        public bool CheckPassword(string login_, string password_)
         {
-            // Логика входа
+            string hash_password_ = password_.GetHashCode().ToString();
+            ConnectionDB connectionDB = new ConnectionDB();
+            DataTable dataTable = connectionDB.SelectDB("SELECT * FROM public.\"User\" WHERE (login = '" + login_ + "' AND hash_password = '" + hash_password_ + "')");
+            if(dataTable.Rows.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public void Entry(string login, string password)
+        {
+            if (CheckPassword(login, password))
+            {
+                UserState userState = new UserState();
+                userState.EntryUser();
+            }
         }
 
         public void Exit()
