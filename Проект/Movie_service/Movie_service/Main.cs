@@ -19,17 +19,35 @@ namespace Movie_service
             InitializeComponent();
         }
 
+        public void CreateItems()
+        {
+
+        }
+
         private void Main_Load(object sender, EventArgs e)
         {
             UserState userState = new UserState();
             userState.CheckState();
-            label2.Text = userState.ParseToString();
+            button4.Visible = false;
+            button2.Visible = false;
+            if (userState.userState == UserState.States.AvtorizedAdministrator)
+            {
+                button4.Visible = true;
+                button2.Visible = true;
+            }
+            else if (userState.userState == UserState.States.AvtorizedContentPartner)
+            {
+                button2.Visible = true;
+            }
+            ConnectionDB connectionDB = new ConnectionDB();
+            dataGridView1.DataSource = connectionDB.SelectDB("SELECT * FROM public.\"Content\"");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             UserState userState = new UserState();
             userState.CheckState();
+            
             if (userState.ParseToString() == "NotAvtorized")
             {
                 Login loginForm = new Login();
@@ -66,37 +84,23 @@ namespace Movie_service
 
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ConnectionDB connectionDB = new ConnectionDB();
-            DataTable db = connectionDB.SelectDB("SELECT * FROM public.\"User\"\r\nORDER BY user_id ASC ");
-            dataGridView1.DataSource = db;  
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            UserState userState = new UserState();
-            userState.Exit();
+            AllUsers allusersForm = new AllUsers();
+            allusersForm.Show();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MyContent mycontentForm = new MyContent();
+            mycontentForm.Show();
+            Hide();
         }
     }
 }

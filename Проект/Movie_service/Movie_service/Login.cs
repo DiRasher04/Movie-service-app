@@ -50,11 +50,33 @@ namespace Movie_service
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            User user = new User();
-            user.Entry(textBox1.Text, textBox2.Text);
-            Profile profileForm = new Profile();
-            profileForm.Show();
-            Hide();
+            ConnectionDB connectionDB = new ConnectionDB();
+            string tmpLogin = textBox1.Text;
+            if (connectionDB.SelectDB("SELECT role FROM public.\"User\" WHERE login = '" + tmpLogin + "' UNION SELECT role FROM public.\"Administrator\" WHERE login = '" + tmpLogin + "' UNION SELECT role FROM public.\"ContentPartner\" WHERE login = '" + tmpLogin + "'").Rows[0]["role"].ToString() == "user")
+            {
+                User user = new User();
+                user.Entry(textBox1.Text, textBox2.Text);
+                Profile profileForm = new Profile();
+                profileForm.Show();
+                Hide();
+            }
+            else if (connectionDB.SelectDB("SELECT role FROM public.\"User\" WHERE login = '" + tmpLogin + "' UNION SELECT role FROM public.\"Administrator\" WHERE login = '" + tmpLogin + "' UNION SELECT role FROM public.\"ContentPartner\" WHERE login = '" + tmpLogin + "'").Rows[0]["role"].ToString() == "administrator")
+            {
+                Administrator administrator = new Administrator();
+                administrator.Entry(textBox1.Text, textBox2.Text);
+                Profile profileForm = new Profile();
+                profileForm.Show();
+                Hide();
+            }
+            else if (connectionDB.SelectDB("SELECT role FROM public.\"User\" WHERE login = '" + tmpLogin + "' UNION SELECT role FROM public.\"Administrator\" WHERE login = '" + tmpLogin + "' UNION SELECT role FROM public.\"ContentPartner\" WHERE login = '" + tmpLogin + "'").Rows[0]["role"].ToString() == "contentpartner")
+            {
+                ContentPartner contentPartner = new ContentPartner();
+                contentPartner.Entry(textBox1.Text, textBox2.Text);
+                Profile profileForm = new Profile();
+                profileForm.Show();
+                Hide();
+            }
+            
         }
 
         private void Login_Load(object sender, EventArgs e)

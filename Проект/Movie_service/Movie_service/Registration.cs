@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Movie_service
@@ -16,13 +10,20 @@ namespace Movie_service
         {
             InitializeComponent();
         }
-        private bool IsFull()
+        private bool IsFullUser()
         {
-            if(textBox2.Text == textBox3.Text && radioButton1.Checked && textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
+            if (textBox2.Text == textBox3.Text && textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "")
             {
                 return true;
             }
-            if(textBox2.Text == textBox3.Text && !radioButton1.Checked && textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && textBox6.Text != "" && textBox7.Text != "")
+            else
+            {
+                return false;
+            }
+        }
+        private bool IsFull()
+        {
+            if (textBox2.Text == textBox3.Text && textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && textBox6.Text != "" && textBox7.Text != "")
             {
                 return true;
             }
@@ -106,21 +107,98 @@ namespace Movie_service
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public bool IsTruRegCodeAdmin(string regCode)
         {
-            if(IsFull())
+            ConnectionDB db = new ConnectionDB();
+            string tmp = regCode;
+            if (db.SelectDB("SELECT * FROM public.\"RegistrationCode\" WHERE (role = 'admin' AND value = '" + tmp + "')").Rows.Count > 0)
             {
-                MessageBox.Show("Решистрация прошла успешно");
-                User user = new User();
-                user.Registration(textBox1.Text, textBox2.Text);
-                label10.Visible = false;
+                return true;
             }
             else
             {
-                label10.Visible = true;
+                return false;
+            }
+        }
+        public bool IsTruRegCodePartner(string regCode)
+        {
+            ConnectionDB db = new ConnectionDB();
+            string tmp = regCode;
+            if (db.SelectDB("SELECT * FROM public.\"RegistrationCode\" WHERE (role = 'partner' AND value = '" + tmp + "')").Rows.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
+        public void DeleteCode(string regCode)
+        {
+            ConnectionDB connectionDB = new ConnectionDB();
+            connectionDB.InsertDB("DELETE FROM public.\"RegistrationCode\" WHERE value = '" + regCode + "'");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ConnectionDB connectionDB = new ConnectionDB();
+            string tmpLogin = textBox1.Text;
+            if (!IsTruRegCodePartner(textBox7.Text) && !IsTruRegCodeAdmin(textBox7.Text))
+            {
+                label10.Visible = true;
+                label10.Text = "Код регистрации не подходит";
+                label10.ForeColor = Color.Red;
+            }
+            else if (connectionDB.SelectDB("SELECT login FROM public.\"Administrator\" WHERE login = '" + tmpLogin + "' UNION SELECT login FROM public.\"User\" WHERE login = '" + tmpLogin + "' UNION SELECT login FROM public.\"ContentPartner\" WHERE login = '" + tmpLogin + "'").Rows.Count != 0)
+            {
+                label10.Visible = true;
+                label10.Text = "Учетная запись с таким логином уже существует!";
+                label10.ForeColor = Color.Red;
+            }
+            else if (textBox2.Text != textBox3.Text)
+            {
+                label10.Visible = true;
+                label10.Text = "Пароли не совпадают!";
+                label10.ForeColor = Color.Red;
+
+            }
+            else
+            {
+                if (IsFullUser() && radioButton1.Checked)
+                {
+                    User user = new User();
+                    user.Registration(textBox1.Text, textBox2.Text);
+                    label10.Visible = true;
+                    label10.Text = "Регистрация пользователя прошла успешно";
+                    label10.ForeColor = Color.Blue;
+                }
+                else if (IsFull() && radioButton2.Checked && IsTruRegCodePartner(textBox7.Text))
+                {
+                    ContentPartner contentPartner = new ContentPartner();
+                    contentPartner.Registration(textBox1.Text, textBox2.Text, textBox4.Text, textBox5.Text, textBox6.Text, dateTimePicker1.Value);
+                    label10.Visible = true;
+                    DeleteCode(textBox7.Text);
+                    label10.Text = "Регистрация контент-партнера прошла успешно";
+                    label10.ForeColor = Color.Blue;
+                }
+                else if (IsFull() && radioButton3.Checked && IsTruRegCodeAdmin(textBox7.Text))
+                {
+                    Administrator administrator = new Administrator();
+                    administrator.Registration(textBox1.Text, textBox2.Text, textBox4.Text, textBox5.Text, textBox6.Text, dateTimePicker1.Value);
+                    label10.Visible = true;
+                    DeleteCode(textBox7.Text);
+                    label10.Text = "Регистрация администратора прошла успешно";
+                    label10.ForeColor = Color.Blue;
+                }
+                else
+                {
+                    label10.Text = "Заполните все поля!";
+                    label10.ForeColor = Color.Red;
+                    label10.Visible = true;
+                }
+            }
+        }
         private void label4_Click(object sender, EventArgs e)
         {
 

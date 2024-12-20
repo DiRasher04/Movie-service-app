@@ -12,6 +12,7 @@ namespace Movie_service
     internal class UserState
     {
         public States userState;
+        public int currentId;
         public enum States
         {
             NotAvtorized,
@@ -20,30 +21,37 @@ namespace Movie_service
             AvtorizedContentPartner
         }
 
+
         public void Exit()
         {
-            WriteToFile("NotAvtorized");
+            WriteToFileState("NotAvtorized");
+            WriteToFileId("0");
             userState = States.NotAvtorized;
+            currentId = 0;
         }
         public void EntryUser()
         {
-            WriteToFile("AvtorizedUser");
+            WriteToFileState("AvtorizedUser");
+            WriteToFileId(currentId.ToString());
             userState = States.AvtorizedUser;
         }
         public void EntryAdministrator()
         {
-            WriteToFile("AvtorizedAdministrator");
+            WriteToFileState("AvtorizedAdministrator");
+            WriteToFileId(currentId.ToString());
             userState = States.AvtorizedAdministrator;
         }
 
         public void EntryContentPartner()
         {
-            WriteToFile("AvtorizedContentPartner");
+            WriteToFileState("AvtorizedContentPartner");
+            WriteToFileId(currentId.ToString());
             userState = States.AvtorizedContentPartner;
         }
         public void CheckState()
         {
-            userState = ParseToState(ReadFile());
+            userState = ParseToState(ReadFileState());
+            currentId = int.Parse(ReadFileId());
         }
 
         public string ParseToString()
@@ -80,7 +88,7 @@ namespace Movie_service
             }
         }
 
-        public static void WriteToFile(string newContent)
+        public static void WriteToFileState(string newContent)
         {
             string filePath = "C:\\Лабораторные работы\\5 Семестр\\Системы управления базами данных\\Курсовая работа\\Проект\\Movie_service\\Movie_service\\State.txt";
             try
@@ -99,9 +107,65 @@ namespace Movie_service
                 MessageBox.Show($"Произошла непредвиденная ошибка: {ex.Message}");
             }
         }
-        public static string ReadFile()
+        public static void WriteToFileId(string newContent)
+        {
+            string filePath = "C:\\Лабораторные работы\\5 Семестр\\Системы управления базами данных\\Курсовая работа\\Проект\\Movie_service\\Movie_service\\CurrentId.txt";
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(filePath, false, Encoding.UTF8))
+                {
+                    writer.Write(newContent);
+                }
+            }
+            catch (IOException ex)
+            {
+                MessageBox.Show($"Ошибка при записи в файл: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Произошла непредвиденная ошибка: {ex.Message}");
+            }
+        }
+        public static string ReadFileState()
         {
             string filePath = "C:\\Лабораторные работы\\5 Семестр\\Системы управления базами данных\\Курсовая работа\\Проект\\Movie_service\\Movie_service\\State.txt";
+            try
+            {
+                if (!File.Exists(filePath))
+                {
+                    Console.WriteLine($"Файл {filePath} не найден.");
+                    return null;
+                }
+
+                using (StreamReader reader = new StreamReader(filePath, Encoding.UTF8))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            catch (FileNotFoundException ex)
+            {
+                Console.WriteLine($"Ошибка: файл не найден: {ex.Message}");
+                return null;
+            }
+            catch (DirectoryNotFoundException ex)
+            {
+                Console.WriteLine($"Ошибка: папка не найдена: {ex.Message}");
+                return null;
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine($"Ошибка при чтении файла: {ex.Message}");
+                return null;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Произошла непредвиденная ошибка: {ex.Message}");
+                return null;
+            }
+        }
+        public static string ReadFileId()
+        {
+            string filePath = "C:\\Лабораторные работы\\5 Семестр\\Системы управления базами данных\\Курсовая работа\\Проект\\Movie_service\\Movie_service\\CurrentId.txt";
             try
             {
                 if (!File.Exists(filePath))
